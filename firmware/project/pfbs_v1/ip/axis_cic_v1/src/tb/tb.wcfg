@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="tb" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="49387623fs"></ZoomEndTime>
+      <Cursor1Time time="21000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="159"></NameColumnWidth>
+      <ValueColumnWidth column_width="226"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="153" />
+   <wvobject type="array" fp_name="/tb/DUT/ADDR_NCHAN_REG">
+      <obj_property name="ElementShortName">ADDR_NCHAN_REG[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_NCHAN_REG[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ADDR_PINC_REG">
+      <obj_property name="ElementShortName">ADDR_PINC_REG[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_PINC_REG[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ADDR_WE_REG">
+      <obj_property name="ElementShortName">ADDR_WE_REG</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WE_REG</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/DDS_SYNC_REG">
+      <obj_property name="ElementShortName">DDS_SYNC_REG</obj_property>
+      <obj_property name="ObjectShortName">DDS_SYNC_REG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/DDS_OUTSEL_REG">
+      <obj_property name="ElementShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/CIC_D_REG">
+      <obj_property name="ElementShortName">CIC_D_REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CIC_D_REG[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/nchan_i">
+      <obj_property name="ElementShortName">nchan_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nchan_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/pinc_i">
+      <obj_property name="ElementShortName">pinc_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pinc_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/we_i">
+      <obj_property name="ElementShortName">we_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">we_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider99" type="divider">
+      <obj_property name="label">ddscic 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_addr">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_do">
+      <obj_property name="ElementShortName">mem_do[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_do[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/din">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/din_last">
+      <obj_property name="ElementShortName">din_last</obj_property>
+      <obj_property name="ObjectShortName">din_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dout">
+      <obj_property name="ElementShortName">dout[79:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_last">
+      <obj_property name="ElementShortName">dout_last</obj_property>
+      <obj_property name="ObjectShortName">dout_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_valid">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/DDS_SYNC_REG">
+      <obj_property name="ElementShortName">DDS_SYNC_REG</obj_property>
+      <obj_property name="ObjectShortName">DDS_SYNC_REG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DDS_OUTSEL_REG">
+      <obj_property name="ElementShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/CIC_D_REG">
+      <obj_property name="ElementShortName">CIC_D_REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CIC_D_REG[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dds_dout">
+      <obj_property name="ElementShortName">dds_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dds_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dds_dout_last">
+      <obj_property name="ElementShortName">dds_dout_last</obj_property>
+      <obj_property name="ObjectShortName">dds_dout_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_real">
+      <obj_property name="ElementShortName">cic_din_real[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_real[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_imag">
+      <obj_property name="ElementShortName">cic_din_imag[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_imag[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din">
+      <obj_property name="ElementShortName">cic_din[79:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/NCH">
+      <obj_property name="ElementShortName">NCH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NCH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/B">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DMAX_CIC">
+      <obj_property name="ElementShortName">DMAX_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMAX_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/Q_CIC">
+      <obj_property name="ElementShortName">Q_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/BCIC">
+      <obj_property name="ElementShortName">BCIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BCIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider100" type="divider">
+      <obj_property name="label">ddscis 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_addr">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_do">
+      <obj_property name="ElementShortName">mem_do[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_do[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/din">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/din_last">
+      <obj_property name="ElementShortName">din_last</obj_property>
+      <obj_property name="ObjectShortName">din_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dout">
+      <obj_property name="ElementShortName">dout[79:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_last">
+      <obj_property name="ElementShortName">dout_last</obj_property>
+      <obj_property name="ObjectShortName">dout_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_valid">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/DDS_SYNC_REG">
+      <obj_property name="ElementShortName">DDS_SYNC_REG</obj_property>
+      <obj_property name="ObjectShortName">DDS_SYNC_REG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DDS_OUTSEL_REG">
+      <obj_property name="ElementShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/CIC_D_REG">
+      <obj_property name="ElementShortName">CIC_D_REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CIC_D_REG[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dds_dout">
+      <obj_property name="ElementShortName">dds_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dds_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dds_dout_last">
+      <obj_property name="ElementShortName">dds_dout_last</obj_property>
+      <obj_property name="ObjectShortName">dds_dout_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_real">
+      <obj_property name="ElementShortName">cic_din_real[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_real[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_imag">
+      <obj_property name="ElementShortName">cic_din_imag[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_imag[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din">
+      <obj_property name="ElementShortName">cic_din[79:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/NCH">
+      <obj_property name="ElementShortName">NCH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NCH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/B">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DMAX_CIC">
+      <obj_property name="ElementShortName">DMAX_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMAX_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/Q_CIC">
+      <obj_property name="ElementShortName">Q_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/BCIC">
+      <obj_property name="ElementShortName">BCIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BCIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider101" type="divider">
+      <obj_property name="label">ddscic 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_addr">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_do">
+      <obj_property name="ElementShortName">mem_do[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_do[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/din">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/din_last">
+      <obj_property name="ElementShortName">din_last</obj_property>
+      <obj_property name="ObjectShortName">din_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dout">
+      <obj_property name="ElementShortName">dout[79:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_last">
+      <obj_property name="ElementShortName">dout_last</obj_property>
+      <obj_property name="ObjectShortName">dout_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_valid">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/DDS_SYNC_REG">
+      <obj_property name="ElementShortName">DDS_SYNC_REG</obj_property>
+      <obj_property name="ObjectShortName">DDS_SYNC_REG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DDS_OUTSEL_REG">
+      <obj_property name="ElementShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/CIC_D_REG">
+      <obj_property name="ElementShortName">CIC_D_REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CIC_D_REG[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dds_dout">
+      <obj_property name="ElementShortName">dds_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dds_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dds_dout_last">
+      <obj_property name="ElementShortName">dds_dout_last</obj_property>
+      <obj_property name="ObjectShortName">dds_dout_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_real">
+      <obj_property name="ElementShortName">cic_din_real[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_real[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_imag">
+      <obj_property name="ElementShortName">cic_din_imag[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_imag[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din">
+      <obj_property name="ElementShortName">cic_din[79:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/NCH">
+      <obj_property name="ElementShortName">NCH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NCH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/B">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DMAX_CIC">
+      <obj_property name="ElementShortName">DMAX_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMAX_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/Q_CIC">
+      <obj_property name="ElementShortName">Q_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/BCIC">
+      <obj_property name="ElementShortName">BCIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BCIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider102" type="divider">
+      <obj_property name="label">ddscic 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_addr">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/mem_do">
+      <obj_property name="ElementShortName">mem_do[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_do[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/din">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/din_last">
+      <obj_property name="ElementShortName">din_last</obj_property>
+      <obj_property name="ObjectShortName">din_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dout">
+      <obj_property name="ElementShortName">dout[79:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_last">
+      <obj_property name="ElementShortName">dout_last</obj_property>
+      <obj_property name="ObjectShortName">dout_last</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dout_valid">
+      <obj_property name="ElementShortName">dout_valid</obj_property>
+      <obj_property name="ObjectShortName">dout_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/DDS_SYNC_REG">
+      <obj_property name="ElementShortName">DDS_SYNC_REG</obj_property>
+      <obj_property name="ObjectShortName">DDS_SYNC_REG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DDS_OUTSEL_REG">
+      <obj_property name="ElementShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DDS_OUTSEL_REG[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/CIC_D_REG">
+      <obj_property name="ElementShortName">CIC_D_REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CIC_D_REG[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/dds_dout">
+      <obj_property name="ElementShortName">dds_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dds_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/ddscic_i/dds_dout_last">
+      <obj_property name="ElementShortName">dds_dout_last</obj_property>
+      <obj_property name="ObjectShortName">dds_dout_last</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_real">
+      <obj_property name="ElementShortName">cic_din_real[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_real[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din_imag">
+      <obj_property name="ElementShortName">cic_din_imag[39:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din_imag[39:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/cic_din">
+      <obj_property name="ElementShortName">cic_din[79:0]</obj_property>
+      <obj_property name="ObjectShortName">cic_din[79:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/NCH">
+      <obj_property name="ElementShortName">NCH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NCH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/B">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/DMAX_CIC">
+      <obj_property name="ElementShortName">DMAX_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMAX_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/Q_CIC">
+      <obj_property name="ElementShortName">Q_CIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_CIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/ddscic_i/BCIC">
+      <obj_property name="ElementShortName">BCIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BCIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider91" type="divider">
+      <obj_property name="label">bram 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/clka">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/wea">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/addra">
+      <obj_property name="ElementShortName">addra[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/dia">
+      <obj_property name="ElementShortName">dia[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dia[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/doa">
+      <obj_property name="ElementShortName">doa[15:0]</obj_property>
+      <obj_property name="ObjectShortName">doa[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/clkb">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/enb">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/web">
+      <obj_property name="ElementShortName">web</obj_property>
+      <obj_property name="ObjectShortName">web</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/addrb">
+      <obj_property name="ElementShortName">addrb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/dib">
+      <obj_property name="ElementShortName">dib[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dib[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(0)\/bram_i/dob">
+      <obj_property name="ElementShortName">dob[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dob[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider104" type="divider">
+      <obj_property name="label">bram 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/clka">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/wea">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/addra">
+      <obj_property name="ElementShortName">addra[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/dia">
+      <obj_property name="ElementShortName">dia[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dia[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/doa">
+      <obj_property name="ElementShortName">doa[15:0]</obj_property>
+      <obj_property name="ObjectShortName">doa[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/clkb">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/enb">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/web">
+      <obj_property name="ElementShortName">web</obj_property>
+      <obj_property name="ObjectShortName">web</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/addrb">
+      <obj_property name="ElementShortName">addrb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/dib">
+      <obj_property name="ElementShortName">dib[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dib[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(1)\/bram_i/dob">
+      <obj_property name="ElementShortName">dob[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dob[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider117" type="divider">
+      <obj_property name="label">bram 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/clka">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/wea">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/addra">
+      <obj_property name="ElementShortName">addra[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/dia">
+      <obj_property name="ElementShortName">dia[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dia[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/doa">
+      <obj_property name="ElementShortName">doa[15:0]</obj_property>
+      <obj_property name="ObjectShortName">doa[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/clkb">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/enb">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/web">
+      <obj_property name="ElementShortName">web</obj_property>
+      <obj_property name="ObjectShortName">web</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/addrb">
+      <obj_property name="ElementShortName">addrb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/dib">
+      <obj_property name="ElementShortName">dib[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dib[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(2)\/bram_i/dob">
+      <obj_property name="ElementShortName">dob[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dob[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider130" type="divider">
+      <obj_property name="label">bram 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/clka">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/wea">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/addra">
+      <obj_property name="ElementShortName">addra[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/dia">
+      <obj_property name="ElementShortName">dia[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dia[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/doa">
+      <obj_property name="ElementShortName">doa[15:0]</obj_property>
+      <obj_property name="ObjectShortName">doa[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/clkb">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/enb">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/web">
+      <obj_property name="ElementShortName">web</obj_property>
+      <obj_property name="ObjectShortName">web</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/addrb">
+      <obj_property name="ElementShortName">addrb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/dib">
+      <obj_property name="ElementShortName">dib[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dib[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/DUT/\GEN_lane(3)\/bram_i/dob">
+      <obj_property name="ElementShortName">dob[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dob[15:0]</obj_property>
+   </wvobject>
+</wave_config>

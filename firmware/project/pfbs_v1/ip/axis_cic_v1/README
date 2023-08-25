@@ -1,0 +1,20 @@
+This block integrates the TDM-muxed 3rd order CIC.
+
+Input data is fixed to 16-bit for I and 16-bit for Q.
+Multi-lane expects IQ to be interleaved between channels.
+
+Q[L-1] I[L-1] .. Q[1] I[1] Q[0] I[0].
+
+Given the input width and CIC characteristics, the output
+data width is 40-bit for I and 40-bit for Q on the CIC filter.
+There is a Quantization Block that converts back tto 16-bit
+for I and 16-bit for Q.
+
+NOTE: the block is to be connected to a "always valid" data
+stream. As such, it is not possible to drop s_axis_tvalid
+as the block won't use this to stop the processing. At the
+output, however, m_axis_tvalid should be used as the block
+performs decimation and then only a portion of the packets
+will be valid. Framing is done by using s_axis_tlast for 
+sync. Output m_axis_tlast is honored, too. Finally, back
+pressure is not possible by using m_axis_tready.
